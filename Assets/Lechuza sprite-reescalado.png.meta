@@ -1,0 +1,809 @@
+fileFormatVersion: 2
+guid: 64edbe603ffd2d549b35b5ba08885f17
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_0
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 600
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b849c8a5d90d3ee46a44a6ea2172fa1d
+      internalID: 636005582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_1
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 600
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cb9ab4a560df964e8917bf418a9bb40
+      internalID: -400695572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_2
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 600
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c059f6ccfec900448b71a1242646659
+      internalID: -1833946664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_3
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 600
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bebe568441bc3d488f39d59a26b10cc
+      internalID: -469921885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_4
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 600
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f9b56f08090514da256e35007300df
+      internalID: 823650019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_5
+      rect:
+        serializedVersion: 2
+        x: 758
+        y: 600
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512152e30df66ed488b1662731f9ac86
+      internalID: 533360146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_6
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 600
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713c426a6b1a4fd488a42fc50cf49733
+      internalID: -971848707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 600
+        width: 45
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67db7364bba0421419a32090895d7e0a
+      internalID: 1647339720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_8
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 488
+        width: 54
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b06e9202e62499344a37accf94ac9af9
+      internalID: 914680316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_9
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 488
+        width: 51
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bcf341b54e5984cbc8d4d14f2bc8ea
+      internalID: -585714354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 488
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb312bf1b5ec7d94e9a3c6735e079a72
+      internalID: 572069799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_11
+      rect:
+        serializedVersion: 2
+        x: 477
+        y: 488
+        width: 46
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ba1d269bdf8df04282f1c8da66fedb0
+      internalID: 1934836397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_12
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 488
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1221be01fde1d04aacb3fa2332ff56d
+      internalID: 1488810403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_13
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 488
+        width: 49
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9040947992ae58d45b2d0eaac5ee6f7f
+      internalID: 1700832537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_14
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 488
+        width: 49
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c8c83efb3bb4204b822231a09640117
+      internalID: 1041325748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_15
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 488
+        width: 51
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff7ce0194b7fe764bbe1672b3eada041
+      internalID: 720727619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 376
+        width: 45
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3326761807b17524580fe6635a75f41e
+      internalID: 190747267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_17
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 376
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 741bd349ff72e8a41836249794b13780
+      internalID: 485981656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_18
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 376
+        width: 59
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e3b11de67dca04989075a2eefd5b6c
+      internalID: -1149534783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_19
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 376
+        width: 79
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45ac667812d95434f91607e909d3393d
+      internalID: -698540618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_20
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 264
+        width: 40
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c769affbd2c72f84e96289fdcebb6032
+      internalID: -1155216069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_21
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 264
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80932904d27154e478f7f395f7b08aea
+      internalID: -1764002127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_22
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 264
+        width: 42
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f78f39d798ef4664fad5d33d097f7684
+      internalID: 2147312361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_23
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 152
+        width: 49
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5322ab2258d651647be0024556d14bad
+      internalID: -698877806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_24
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 152
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200fe8095776c1e468745a72397fc3d1
+      internalID: 1988181362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_25
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 148
+        width: 43
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b45d6690cf0c246aa3b9ab45782427
+      internalID: 2072129631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_26
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 139
+        width: 27
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 229173a5a236c8b40955c8d2937a53a8
+      internalID: -211608839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_27
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 30
+        width: 39
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77cf5be577f2d8a4289dfa4c9b36c270
+      internalID: 361207631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_28
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 32
+        width: 61
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d8e7dcef10ca4e9d22bb0c77a4357
+      internalID: -1049980442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_29
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 33
+        width: 64
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f7576dfafcbcf34188e50d3bcacd766
+      internalID: 1454591969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lechuza sprite-reescalado_30
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 32
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8e7a1dbb8ebea49b125bb14ea7ce46
+      internalID: -1459198429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Lechuza sprite-reescalado_0: 636005582
+      Lechuza sprite-reescalado_1: -400695572
+      Lechuza sprite-reescalado_10: 572069799
+      Lechuza sprite-reescalado_11: 1934836397
+      Lechuza sprite-reescalado_12: 1488810403
+      Lechuza sprite-reescalado_13: 1700832537
+      Lechuza sprite-reescalado_14: 1041325748
+      Lechuza sprite-reescalado_15: 720727619
+      Lechuza sprite-reescalado_16: 190747267
+      Lechuza sprite-reescalado_17: 485981656
+      Lechuza sprite-reescalado_18: -1149534783
+      Lechuza sprite-reescalado_19: -698540618
+      Lechuza sprite-reescalado_2: -1833946664
+      Lechuza sprite-reescalado_20: -1155216069
+      Lechuza sprite-reescalado_21: -1764002127
+      Lechuza sprite-reescalado_22: 2147312361
+      Lechuza sprite-reescalado_23: -698877806
+      Lechuza sprite-reescalado_24: 1988181362
+      Lechuza sprite-reescalado_25: 2072129631
+      Lechuza sprite-reescalado_26: -211608839
+      Lechuza sprite-reescalado_27: 361207631
+      Lechuza sprite-reescalado_28: -1049980442
+      Lechuza sprite-reescalado_29: 1454591969
+      Lechuza sprite-reescalado_3: -469921885
+      Lechuza sprite-reescalado_30: -1459198429
+      Lechuza sprite-reescalado_4: 823650019
+      Lechuza sprite-reescalado_5: 533360146
+      Lechuza sprite-reescalado_6: -971848707
+      Lechuza sprite-reescalado_7: 1647339720
+      Lechuza sprite-reescalado_8: 914680316
+      Lechuza sprite-reescalado_9: -585714354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

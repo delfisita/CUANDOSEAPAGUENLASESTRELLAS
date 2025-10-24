@@ -74,8 +74,8 @@ Material:
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
-    - _OriginX: 0.351
-    - _OriginY: 0.099
+    - _OriginX: 0.34287506
+    - _OriginY: 0.377
     - _Parallax: 0.02
     - _Smoothing: 0.75
     - _SmoothnessTextureChannel: 0

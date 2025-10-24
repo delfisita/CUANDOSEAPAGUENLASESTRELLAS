@@ -87,7 +87,8 @@ public class PlayerMove : MonoBehaviour
         animator.SetBool("walking", isWalking);
 
 
-        bool isFalling = !isGrounded && rb.velocity.y < -0.5f && !isDashing;
+        //bool isFalling = !isGrounded && rb.velocity.y < -0.5f && !isDashing;
+        bool isFalling = !isGrounded;
         animator.SetBool("isFalling", isFalling);
         if (!isGrounded)
         {

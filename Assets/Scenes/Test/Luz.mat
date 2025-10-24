@@ -67,7 +67,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _Falloff: 0.22
+    - _Falloff: 0.17
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -75,9 +75,9 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _OriginX: 0.34287506
-    - _OriginY: 0.377
+    - _OriginY: 0.486
     - _Parallax: 0.02
-    - _Smoothing: 0.75
+    - _Smoothing: 10
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1

@@ -7,7 +7,7 @@ Shader "UI/RadialGradient"
         _OriginX ("Origin X", Range(0, 1)) = 0.5
         _OriginY ("Origin Y", Range(0, 1)) = 0.5
         _Falloff ("Falloff", Range(0, 1.5)) = 0.5
-        _Smoothing ("Smoothing", Range(0, 3)) = 0.1
+        _Smoothing ("Smoothing", Range(0, 10)) = 0.1
         _AspectRatio ("Aspect Ratio", Float) = 1.0
         
         [PerRendererData] _MainTex ("Sprite Texture", 2D) = "white" {}
@@ -126,7 +126,12 @@ Shader "UI/RadialGradient"
                 
                 // Correct falloff logic: 0 = no Color1, 1 = full Color1
                 float t = 1.0 - saturate(dist / _Falloff);
-                t = smoothstep(0, _Smoothing, t);
+ 
+                float smoothWidth = _Smoothing * 0.1; // Small smoothing width
+                float edge = dist / _Falloff; // Distance from center normalized
+                float smoothEdge = smoothstep(1.0 - smoothWidth, 1.0 + smoothWidth, edge);
+                t = 1.0 - smoothEdge;
+                
                 fixed4 gradient = lerp(_Color2, _Color1, t);
                 
                 half4 color = (gradient + _TextureSampleAdd) * IN.color;

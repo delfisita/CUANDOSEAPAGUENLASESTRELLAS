@@ -15,12 +15,12 @@ public class PlayerMove : MonoBehaviour
 
     [Header("Colliders")]
     public Collider2D standingCollider;
-    public Collider2D crouchCollider;
+    
    
 
     private Rigidbody2D rb;
     public bool isGrounded;
-    private bool isCrouching;
+    
     private bool isDashing;
     private float horizontalInput;
 
@@ -43,7 +43,7 @@ public class PlayerMove : MonoBehaviour
         GetInput();
         HandleJump();
         HandleDash();
-        HandleCrouch();
+        
         UpdateAnimations();
         FlipSprite();
 
@@ -83,7 +83,7 @@ public class PlayerMove : MonoBehaviour
         
         if (animator == null) return;
 
-        bool isWalking = Mathf.Abs(horizontalInput) > 0.1f && isGrounded && !isCrouching && !isDashing;
+        bool isWalking = Mathf.Abs(horizontalInput) > 0.1f && isGrounded &&  !isDashing;
         animator.SetBool("walking", isWalking);
 
 
@@ -105,13 +105,13 @@ public class PlayerMove : MonoBehaviour
     {
         if (isDashing) return;
 
-        float currentSpeed = isCrouching ? crouchSpeed : moveSpeed;
+        float currentSpeed =  moveSpeed;
         rb.velocity = new Vector2(horizontalInput * currentSpeed, rb.velocity.y);
     }
 
     private void HandleJump()
     {
-        if (Input.GetButtonDown("Jump") && isGrounded && !isCrouching && !isDashing)
+        if (Input.GetButtonDown("Jump") && isGrounded &&  !isDashing)
         {
             if(manajerLights.currentFire > 0)
             {
@@ -125,7 +125,7 @@ public class PlayerMove : MonoBehaviour
     }
     private void HandleDash()
     {
-        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing && !isCrouching)
+        if (Input.GetKeyDown(KeyCode.LeftShift) && !isDashing )
         {
             if (manajerLights.currentFire > 0)
             {
@@ -138,32 +138,9 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    private void HandleCrouch()
-    {
-        if (Input.GetKeyDown(KeyCode.S) && isGrounded && !isDashing)
-        {
-            if (!isCrouching)
-            {
-                SetCrouchState(true);
-            }
-            else
-            {
-                SetCrouchState(false);
-            }
-        }
-    }
+   
 
-    private void SetCrouchState(bool crouch)
-    {
-        isCrouching = crouch;
-        standingCollider.enabled = !crouch;
-        crouchCollider.enabled = crouch;
-
-        
-        if (animator != null)
-            animator.SetBool("crouching", crouch);
-    }
-
+   
     private IEnumerator Dash(float direction)
     {
         isDashing = true;
